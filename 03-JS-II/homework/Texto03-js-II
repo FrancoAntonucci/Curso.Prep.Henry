@@ -1,0 +1,31 @@
+
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+El bucle for se utiliza para realizar una evaluacion hasta que se cumpla una condición determinada.
+Su sintaxis se resume de la siguiente manera:
+for ( Let i=0 ; i>10 ; i++) , esto significa lo siguiente. 
+for (declaracion de variable; condición; incremento de variable) . 
+Funciona iniciando con el valor establecido de la variable , luego evaluando si cumple la condición y luego incrementando el valor de variable en una unidad.
+El bucle se cumple hasta que la condición se cumpla.
+
+`&&`, `||`, `!`
+&& operador lógico and (y).
+su tabla de verdad es la siguiente:
+V && V -- V (true)
+Las demás combinaciones dan como resultado F (false).
+
+|| operador lógico Or (o).
+su tabla de verdad es la siguiente:
+V || V -- V (true)
+V || F -- V 
+F || V -- V 
+F || F -- F (false)
+
+`!` operador lógico de negación
+da como resultado el valor contrario del operador que lo sigue.
+
+!(V || V) -- F (false)
+!(V || F) -- F (false) 
